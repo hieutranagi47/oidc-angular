@@ -98,7 +98,7 @@ Returns `true` if the there is a valid token available, `false` if no token or a
 **Sample**
 
 ```javascript
- $auth.isAuthenthicated();
+ $auth.isAuthenticated();
 ```
 
 ### IsAuthenticatedIn(milliseconds) 
@@ -107,7 +107,7 @@ Returns `true` if the current token is still valid after the given amount of mil
 **Sample**
 
 ```javascript
- $auth.isAuthenthicatedIn(3600000); // 1hour
+ $auth.isAuthenticatedIn(3600000); // 1hour
 ```
 
 # Sample
