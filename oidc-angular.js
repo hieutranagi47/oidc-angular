@@ -336,6 +336,8 @@ oidcmodule.provider("$auth", ['$routeProvider', function ($routeProvider) {
                     $location.path(redirectTo);
                 }
                 else {
+                    // Remove hash string from callback pramater
+                    $location.hash(null);
                     $location.path('/');
                 }
                 
